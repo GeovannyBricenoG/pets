@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react"
 import "../assets/css/componentes/card.css"
 import { useParams, useNavigate } from "react-router-dom"

@@ -1,13 +1,13 @@
-import ListPost from "../Componets/ListPosts"
-import ListCategories from "../Componets/ListaCategories"
+import ListPosts from "../components/ListPosts"
+import ListCategories from "../components/ListCategories"
 const Home = () => {
   return (
     <main>
       <div className="container">
         <h2 className="title-page">Pet noticias</h2>
       </div>
-      <ListCategories/>
-      <ListPost url={"/posts"} />
+      <ListCategories />
+      <ListPosts url={"/posts"} />
     </main>
   )
 }
